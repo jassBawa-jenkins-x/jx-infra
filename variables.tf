@@ -12,7 +12,7 @@ variable "profile" {
 }
 
 variable "cluster_version" {
-  description = "Kubernetes version to use for the EKS cluster."
+  description = "1.21"
   type        = string
 }
 
@@ -23,7 +23,7 @@ variable "vault_user" {
 }
 
 variable "cluster_name" {
-  description = "Name of the Kubernetes cluster to create"
+  description = "jenkins-x-testing"
   type        = string
   default     = ""
 }
@@ -41,17 +41,17 @@ variable "is_jx2" {
 }
 
 variable "jx_git_url" {
-  description = "URL for the Jenins X cluster git repository"
+  description = "https://github.com/jassBawa-jenkins-x/jx-eks-vault"
   type        = string
 }
 
 variable "jx_bot_username" {
-  description = "Bot username used to interact with the Jenkins X cluster git repository"
+  description = "k9h7u8"
   type        = string
 }
 
 variable "jx_bot_token" {
-  description = "Bot token used to interact with the Jenkins X cluster git repository"
+  description = "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"
   type        = string
 }
 
