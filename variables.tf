@@ -2,7 +2,7 @@
 // Optional Variables
 // ----------------------------------------------------------------------------
 variable "region" {
-  description = "AWS region code for creating resources."
+  description = "us-east-2"
   type        = string
 }
 
@@ -17,7 +17,7 @@ variable "cluster_version" {
 }
 
 variable "vault_user" {
-  description = "The AWS IAM Username whose credentials will be used to authenticate the Vault pods against AWS"
+  description = "Administrator"
   type        = string
   default     = ""
 }
